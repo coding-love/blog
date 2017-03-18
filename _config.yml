@@ -1,15 +1,16 @@
 # Site settings
-title: Clean Blog
+title: Cmart Programming
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
+email: christophmartin@gmx.at
 copyright_name: Your/Project/Corporate Name
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
+baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
+# twitter_username: SBootstrap
+github_username:  cmaart
+# facebook_username:  StartBootstrap
+email_username:  christophmartin@gmx.at
+amazon_associate_id: cmart_blog-21
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
@@ -19,7 +20,14 @@ email_username:  your-email@yourdomain.com
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 5
+paginate: 20
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-gems: [jekyll-paginate, jekyll-feed]
+gems: [jekyll-paginate, jekyll-feed, jekyll-amazon]
+
+jekyll-amazon:
+  locale: 'en'  # label's language. default: 'en'
+  country: 'us' # with the two character country code of their Amazon
+                # Affiliate account (e.g. `'us'` for United States).
+                # default: 'us'
+                # 'br'/'ca'/'cn'/'de'/'es'/'fr'/'in'/'it'/'jp'/'mx/'uk'/'us'
