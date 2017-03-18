@@ -23,11 +23,4 @@ permalink: pretty
 paginate: 20
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-gems: [jekyll-paginate, jekyll-feed, jekyll-amazon]
-
-jekyll-amazon:
-  locale: 'en'  # label's language. default: 'en'
-  country: 'us' # with the two character country code of their Amazon
-                # Affiliate account (e.g. `'us'` for United States).
-                # default: 'us'
-                # 'br'/'ca'/'cn'/'de'/'es'/'fr'/'in'/'it'/'jp'/'mx/'uk'/'us'
+gems: [jekyll-paginate, jekyll-feed]
