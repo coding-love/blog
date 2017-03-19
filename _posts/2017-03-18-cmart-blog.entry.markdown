@@ -19,7 +19,7 @@ Here goes the text...
 {% endhighlight %}
 
 <a href="{{ 'B00154JDAI' | amazon_product_href }}">
-{{ 'B00154JDAI' | amazon_image: 'S' }}
+
 
 
 
