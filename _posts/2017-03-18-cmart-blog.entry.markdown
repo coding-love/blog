@@ -6,6 +6,7 @@ date:       2017-03-18 12:00:00
 author:     "Christoph Martin"
 header-img: "img/post-bg-01.jpg"
 amazon-search: "angular"
+comments:   true
 ---
 
 <p>
