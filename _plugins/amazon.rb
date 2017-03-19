@@ -32,6 +32,11 @@ module Jekyll
       "<img src=\"#{amazon_image_href(asin, size)}\" />"
     end
 
+    def amazon_search(text)
+      "<iframe src=\"https://rcm-eu.amazon-adsystem.com/e/cm?t=cmart_blog-21&o=3&p=32&l=st1&mode=books-de&search=#{text}&fc1=000000&lt1=_blank&lc1=3366FF&bg1=FFFFFF&f=ifr\" 
+      marginwidth=\"0\" marginheight=\"0\" width=\"180\" height=\"450\" border=\"0\" frameborder=\"0\" style=\"border:none;\" scrolling=\"no\"></iframe>"
+    end
+
   end
 end
 
