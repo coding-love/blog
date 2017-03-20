@@ -31,7 +31,7 @@ namespace :site do
       system "git add ."
       message = "Site updated at #{Time.now.utc}"
       system "git commit -m #{message.inspect}"
-      system "git remote add origin https://github.com/coding-love/blog.git"
+      system "git remote add origin https://github.com/coding-love/coding-love.github.io"
       system "git push origin master:refs/heads/gh-pages --force"
 
       Dir.chdir pwd

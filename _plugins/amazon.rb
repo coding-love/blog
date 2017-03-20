@@ -16,11 +16,11 @@
 module Jekyll
   module Filters
     def amazon_product_href(asin)
-      "http://amazon.com/exec/obidos/ASIN/#{asin}/#{@context.registers[:site].config['amazon_associate_id']}"
+      "https://amazon.com/exec/obidos/ASIN/#{asin}/#{@context.registers[:site].config['amazon_associate_id']}"
     end
 
     def amazon_image_href(asin, size)
-      "http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&ASIN=#{asin}&Format=_#{size ? size : 'M'}L110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=#{@context.registers[:site].config['amazon_associate_id']}"
+      "https://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&ASIN=#{asin}&Format=_#{size ? size : 'M'}L110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=#{@context.registers[:site].config['amazon_associate_id']}"
     end
 
     def amazon_product(asin, text)
