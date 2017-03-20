@@ -4,7 +4,7 @@ header-img: img/home-bg.jpg
 email: christophmartin@gmx.at
 copyright_name: Your/Project/Corporate Name
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/blog"
+baseurl: ""
 url: "http://yourdomain.com"
 # twitter_username: SBootstrap
 github_username:  cmaart
@@ -14,7 +14,7 @@ amazon_associate_id: cmart_blog-21
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
-# google_tracking_id:
+google_tracking_id: "UA-94002359-1"
 
 # Build settings
 markdown: kramdown
