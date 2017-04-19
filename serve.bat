@@ -1,3 +1,0 @@
-SET SSL_CERT_FILE=...pem
-SET JEKYLL_GITHUB_TOKEN=...
-jekyll serve --watch
